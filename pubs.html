@@ -1,149 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="stylesheet.css"
+      media="screen"
+    />
     <!-- <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
 
     <title>Edward Edberg | AI Researcher</title>
     <!-- <h1>Hello, Edward</h1> -->
-</head>
+  </head>
 
-<body class="test">
-
+  <body class="test">
     <div class="main">
-        <!-- <div class="top"> -->
-        <!-- <div class="container"> -->
-        <!-- <div class="row"> -->
-        <!-- <div class="col"> -->
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #BEE3DB;">
-            <button id="menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">Edward Edberg</a>
+      <!-- <div class="top"> -->
+      <!-- <div class="container"> -->
+      <!-- <div class="row"> -->
+      <!-- <div class="col"> -->
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #bee3db"
+      >
+        <button
+          id="menu"
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Edward Edberg</a>
 
-            <div class="collapse navbar-collapse navbar-right" id="navbarTogglerDemo03">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav-pills ">
-                    <li class="nav-item active">
-                        <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
-                        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-                        <button id="home" type="button" class="btn btn-outline-dark home" href="#"><i class="fa fw fa-home"></i></button>
-                    </li>
-                    <li class="nav-item">
-                        <!-- <a class="nav-link" href="#">Link</a> -->
-                        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-                        <button id="publications" type="button" class="btn btn-dark"
-                            href="pubs.html">Publications</button>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-outline-dark disabled">Projects</button>
-                    </li>
+        <div
+          class="collapse navbar-collapse navbar-right"
+          id="navbarTogglerDemo03"
+        >
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav-pills">
+            <li class="nav-item active">
+              <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+              <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+              <button
+                id="home"
+                type="button"
+                class="btn btn-outline-dark home"
+                href="#"
+              >
+                <i class="fa fw fa-home"></i>
+              </button>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link" href="#">Link</a> -->
+              <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+              <button
+                id="publications"
+                type="button"
+                class="btn btn-dark"
+                href="pubs.html"
+              >
+                Publications
+              </button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-outline-dark disabled">
+                Projects
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-                </ul>
-            </div>
-        </nav>
-
-
-        <div class="container"></div>
-        <div class="row column justify-content-sm-center">
-            <div class="left col-sm-12 col-md-auto" style="">
-                <img class="face" src="./pic/edod_web_2.jpg" alt="Italian Trulli">
-                <div class="job">
-                    
-                    <p>Data Scientist, Asuransi Astra</p>
-                    <p><i class="fa fa-fw fa-map-marker"></i> Jakarta, Indonesia</p>
-                </div>
-                <div class="contact">
-
-                    <p><i class="fa fa-fw fa-envelope"></i> edward.edberg.halim@gmail.com</p>
-                    <p><i class="fa fa-fw fa-github"></i> <a class="textlink"
-                            href="https://github.com/edward-edberg" target="_blank">Github</a></p>
-                    <p><i class="fa fa-fw fa-file"></i> <a class="textlink"
-                        href="./file/CV_Edward Edberg Halim.pdf" target="_blank">CV</a></p>
-                    <p><i class="fa fa-fw fa-instagram"></i> <a class="textlink"
-                        href="https://www.instagram.com/edwardedberg/" target="_blank">Instagram</a></p>
-                    <!-- <p><img class="ig" src="./pic/instagram.png">Instagram</p> -->
-                </div>
-            </div>
-
-            <div class="right col-sm-12 col-md-9" style="">
-                <!-- #right content in there -->
-                <h3 class="bold">Publications</h3>
-                <!-- <p>My research interests are:</p> -->
-                <!-- <br> -->
-                <div class="pubs">
-                    <p><b>LinnOS: Predictability on Unpredictable Flash Storage with a Light Neural Network.</b><br>
-                        Mingzhe Hao, Levent Toksoz, Nanqinqin Li, <b>Edward Edberg Halim</b>, Henry Hoffmann,
-                        Haryadi S. Gunawi.<br>
-                        <i>OSDI 2020.</i> <a class="textlink"
-                        href="https://www.usenix.org/conference/osdi20/presentation/hao" target="_blank">[Paper]</a></p>
-                </div>
-                
-                <div class="pubs">
-                    <p><b>OpenFraming: We brought the ML; you bring the data. Interact with your data and discover its
-                            frames.</b><br>
-                        Vibhu Bhatia, Vidya Prasad Akavoor, Sejin Paik, Lei Guo, Mona Jalal, Alyssa Smith, David Assefa Tofu, <b>Edward Edberg Halim</b>, Yimeng Sun, Margrit Betke, Prakash Ishwar and Derry Tanti Wijaya.<br>
-                        <i>EMNLP 2021.</i> 
-<!--                         <a class="textlink"
-                        href="https://arxiv.org/abs/2008.06974" target="_blank">[Paper]</a> -->
-                        <a class="textlink"
-                        href="https://github.com/Tdrinker/openFramingSource" target="_blank">[Code]</a>
-                        <a href="http://www.openframing.org/" target="_blank">[Demo]</a></p>
-                </div>
-                
-                <div class="pubs">
-                    <p><b>Detecting Frames in News Headlines and Lead Images in U.S. Gun Violence Coverage.</b><br>
-                        Isidora Tourni, Lei Guo, Taufiq Daryanto, Fabian Zhafransyah, <b>Edward Edberg Halim</b>, Mona Jalal, Boqi Chen, Sha Lai, Hengchang Hu, Margrit Betke, Prakash Ishwar and Derry Tanti Wijaya.<br>
-                        <i>EMNLP 2021.</i>
-                        <a class="textlink"
-                        href="./paper/3606_Paper.pdf" target="_blank">[Paper]</a>
-                    </p>
-                </div>
-
-                <h3 class="bold">Thesis</h3>
-                <div class="pubs">
-                    <p><b>Oxidation Resistance of Aluminum Silicide Coating on Inconel 625 Substrate.</b><br>
-                        <b>Edward Edberg Halim</b>, Robi Sobirin, Eni Sugiarti, and Niki Prastomo.<br>
-                        <i>Thesis. Surya University. 2018.</i>
-                        <a class="textlink"
-                        href="https://edward-edberg.github.io/paper/TA Edward Edberg.pdf" target="_blank">[Paper]</a></p>
-                </div>
-            </div>
+      <div class="container"></div>
+      <div class="row column justify-content-sm-center">
+        <div class="left col-sm-12 col-md-auto" style="">
+          <img class="face" src="./pic/edod_web_2.jpg" alt="Italian Trulli" />
+          <div class="job">
+            <!-- <p>Data Scientist, Asuransi Astra</p> -->
+            <p><i class="fa fa-fw fa-map-marker"></i> Jakarta, Indonesia</p>
+          </div>
+          <div class="contact">
+            <p>
+              <i class="fa fa-fw fa-envelope"></i> edward.edberg.halim@gmail.com
+            </p>
+            <p>
+              <i class="fa fa-fw fa-github"></i>
+              <a
+                class="textlink"
+                href="https://github.com/edward-edberg"
+                target="_blank"
+                >Github</a
+              >
+            </p>
+            <p>
+              <i class="fa fa-fw fa-file"></i>
+              <a
+                class="textlink"
+                href="./file/CV_Edward Edberg Halim.pdf"
+                target="_blank"
+                >CV</a
+              >
+            </p>
+            <!-- <p><i class="fa fa-fw fa-instagram"></i> <a class="textlink"
+                        href="https://www.instagram.com/edwardedberg/" target="_blank">Instagram</a></p> -->
+            <p>
+              <i class="fa fa-fw fa-graduation-cap"></i>
+              <a
+                class="textlink"
+                href="https://scholar.google.com/citations?user=dz1mEQIAAAAJ&hl=en"
+                target="_blank"
+                >Google Scholar</a
+              >
+            </p>
+            <!-- <p><img class="ig" src="./pic/instagram.png">Instagram</p> -->
+          </div>
         </div>
 
-        <footer class="page-footer font-small blue">
+        <div class="right col-sm-12 col-md-9" style="">
+          <!-- #right content in there -->
+          <h3 class="bold">Publications</h3>
+          <!-- <p>My research interests are:</p> -->
+          <!-- <br> -->
+          <div class="pubs">
+            <p>
+              <b
+                >LinnOS: Predictability on Unpredictable Flash Storage with a
+                Light Neural Network.</b
+              ><br />
+              Mingzhe Hao, Levent Toksoz, Nanqinqin Li,
+              <b>Edward Edberg Halim</b>, Henry Hoffmann, Haryadi S. Gunawi.<br />
+              <i>OSDI 2020.</i>
+              <a
+                class="textlink"
+                href="https://www.usenix.org/conference/osdi20/presentation/hao"
+                target="_blank"
+                >[Paper]</a
+              >
+            </p>
+          </div>
 
+          <div class="pubs">
+            <p>
+              <b
+                >OpenFraming: We brought the ML; you bring the data. Interact
+                with your data and discover its frames.</b
+              ><br />
+              Vibhu Bhatia, Vidya Prasad Akavoor, Sejin Paik, Lei Guo, Mona
+              Jalal, Alyssa Smith, David Assefa Tofu,
+              <b>Edward Edberg Halim</b>, Yimeng Sun, Margrit Betke, Prakash
+              Ishwar and Derry Tanti Wijaya.<br />
+              <i>EMNLP 2021.</i>
+              <!--                         <a class="textlink"
+                        href="https://arxiv.org/abs/2008.06974" target="_blank">[Paper]</a> -->
+              <a
+                class="textlink"
+                href="https://github.com/Tdrinker/openFramingSource"
+                target="_blank"
+                >[Code]</a
+              >
+              <a href="http://www.openframing.org/" target="_blank">[Demo]</a>
+            </p>
+          </div>
 
-            <hr class="hr">
-            <div class="footer-copyright text-center py-3">© <script type="text/javascript">
-                document.write(new Date().getFullYear());
-              </script> Edward Edberg
-    
-            </div>
-    
-        </footer>
+          <div class="pubs">
+            <p>
+              <b
+                >Detecting Frames in News Headlines and Lead Images in U.S. Gun
+                Violence Coverage.</b
+              ><br />
+              Isidora Tourni, Lei Guo, Taufiq Daryanto, Fabian Zhafransyah,
+              <b>Edward Edberg Halim</b>, Mona Jalal, Boqi Chen, Sha Lai,
+              Hengchang Hu, Margrit Betke, Prakash Ishwar and Derry Tanti
+              Wijaya.<br />
+              <i>EMNLP 2021.</i>
+              <a class="textlink" href="./paper/3606_Paper.pdf" target="_blank"
+                >[Paper]</a
+              >
+            </p>
+          </div>
 
+          <h3 class="bold">Thesis</h3>
+          <div class="pubs">
+            <p>
+              <b
+                >Oxidation Resistance of Aluminum Silicide Coating on Inconel
+                625 Substrate.</b
+              ><br />
+              <b>Edward Edberg Halim</b>, Robi Sobirin, Eni Sugiarti, and Niki
+              Prastomo.<br />
+              <i>Thesis. Surya University. 2018.</i>
+              <a
+                class="textlink"
+                href="https://edward-edberg.github.io/paper/TA Edward Edberg.pdf"
+                target="_blank"
+                >[Paper]</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <footer class="page-footer font-small blue">
+        <hr class="hr" />
+        <div class="footer-copyright text-center py-3">
+          ©
+          <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>
+          Edward Edberg
+        </div>
+      </footer>
     </div>
-
-
-
-</body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
-<script type="text/javascript" src="main.js"></script>
-
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript" src="main.js"></script>
 </html>
